@@ -1,5 +1,5 @@
 {
-    "name": "@awesome-crowdin/crowdin-contributors",
+    "name": "crowdin-contributors-style",
     "description": "contributors crowdin cli",
     "version": "0.0.4",
     "author": "awesome-crowdin.com",
