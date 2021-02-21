@@ -1,3 +1,7 @@
+Adapted from https://github.com/dies/crowdin-contributors
+
+
+
 @awesome-crowdin/crowdin-contributors
 ========================
 

@@ -1,8 +1,8 @@
 {
-    "name": "crowdin-contributors-style",
+    "name": "crowdin-contributors-allcontributors-style",
     "description": "contributors crowdin cli",
-    "version": "0.0.4",
-    "author": "awesome-crowdin.com",
+    "version": "0.1.0",
+    "author": "King-BR",
     "bin": {
         "crowdin-contributors": "./bin/run"
     },
@@ -13,7 +13,7 @@
         "@oclif/plugin-help": "^3",
         "axios": "^0.21.1",
         "cli-ux": "^5.5.0",
-        "dotenv": "^8.2.0",
+        "dotenv": "^8.2.0"
     },
     "devDependencies": {
         "@oclif/dev-cli": "^1",
@@ -31,7 +31,7 @@
         "/bin",
         "/src"
     ],
-    "homepage": "https://awesome-crowdin.com/",
+    "homepage": "https://github.com/King-BR/crowdin-contributors",
     "keywords": [
         "crowdin"
     ],
@@ -42,10 +42,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/dies/crowdin-contributors.git"
+        "url": "git+https://github.com/King-BR/crowdin-contributors.git"
     },
     "bugs": {
-        "url": "https://github.com/dies/crowdin-contributors/issues"
+        "url": "https://github.com/King-BR/crowdin-contributors/issues"
     },
     "scripts": {
         "test": "mocha"
