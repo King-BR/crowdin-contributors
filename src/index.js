@@ -3,6 +3,7 @@ const {cli} = require('cli-ux')
 const crowdin = require('@crowdin/crowdin-api-client').default;
 const axios = require('axios').default;
 const fs = require('fs');
+require("dotenv").config();
 
 class OclifCrowdinContributorsCommand extends Command {
   async run() {
@@ -145,17 +146,17 @@ async function renderReport(report, config) {
       result.push(report.slice(i, i + config.contributorsPerLine));
   }
 
-  html = `<table style="width: 100%;">`;
+  html = `<table>`;
 
   for (var i in result) {
       html += "<tr>";
       for (var j in result[i]) {
           if(!config.organization) {
             tda = `<a href="https://crowdin.com/profile/` + result[i][j].username + `">
-                    <img style="width: 58px" src="` + result[i][j].picture + `"/>
+                    <img style="width: 100px" src="` + result[i][j].picture + `"/>
                    </a>`;
           } else {
-            tda = `<img style="width: 58px" src="` + result[i][j].picture + `"/>`;
+            tda = `<img style="width: 100px" src="` + result[i][j].picture + `"/>`;
           }
 
           html += `
