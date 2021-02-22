@@ -1,4 +1,4 @@
-Adapted from https://github.com/dies/crowdin-contributors
+Adapted from [dies/crowdin-contributors](https://github.com/dies/crowdin-contributors)
 
 
 
